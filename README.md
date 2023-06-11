@@ -39,8 +39,13 @@ b. Menambahkan kunci PGP Webmin agar sistem dapat mempercayai repository baru de
     <img src="https://i.imgur.com/sKXWN8B.png" alt= "image">  
 c. Menjalankan perintah sudo apt get install webmin untuk menginstall webmin.  
     <img src="https://i.imgur.com/iQ0RSfA.png" alt= "image">  
-d. Untuk mengakses halaman webmin dapat dilakukan menggunakan web browser. Akses halaman Webmin dengan alamat IP dari server Webmin dan port 10000 dengan perintah https://alamatipwebmin:10000  
-e. 
+d. Untuk mengakses halaman webmin dapat dilakukan menggunakan web browser. Akses halaman Webmin dengan alamat IP dari server Webmin dan port 10000 dengan perintah https://alamatipwebmin:10000. Akses melalui https://192.168.76.128:10000  
+e. Setelah itu login dengan username dan password dari akun server yang telah dimiliki. Login menggunakan username dan password Ubuntu.  
+f. Mengakses Users and Group pada webmin untuk membuat user baru.  
+g. Membuat user baru dengan nama hanifahr.
+h. Mengakses group dan membuat group baru dengan nama Adsis_E sesuai dengan kelas MK Administrasi Sistem saya.  
+i. Tambahkan user hanifahr yang baru dibuat pada perintah sebelumnya ke dalam group Adsis_E.  
+
 4. Lakukan ping ke alamat ip anda dan coba lakukan reject dan drop di webmin, lalu analisis apa yang terjadi?  
   
 5. Buatlah perintah otomatis yang berfungsi untuk ping www.filkom.ub.ac.id  
