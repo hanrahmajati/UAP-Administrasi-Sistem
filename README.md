@@ -47,12 +47,15 @@ f. Mengakses Users and Group pada webmin untuk membuat user baru.
     <img src="https://i.imgur.com/fXJU2EO.png" alt= "image">  
 g. Membuat user baru dengan nama hanifahr.  
     <img src="https://i.imgur.com/P15BRN6.png" alt= "image">  
+    User hanifahr berhasil dibuat.  
     <img src="https://i.imgur.com/Vo7U4cY.png" alt= "image">  
 h. Membuat group baru dengan nama Adsis_E sesuai dengan kelas MK Administrasi Sistem saya.  
     <img src="https://i.imgur.com/7cTcHgg.png" alt= "image">  
+    Grup Adsis_E berhasil dibuat.  
     <img src="https://i.imgur.com/QvzFfGE.png" alt= "image">  
 i. Tambahkan user hanifahr yang baru dibuat pada perintah sebelumnya ke dalam group Adsis_E.  
     <img src="https://i.imgur.com/rD4UrRz.png" alt= "image">  
+    User hanifahr berhasil ditambahkan ke grup Adsis_E.  
     <img src="https://i.imgur.com/DOF63ab.png" alt= "image">  
 
 4. Lakukan ping ke alamat ip anda dan coba lakukan reject dan drop di webmin, lalu analisis apa yang terjadi?  
