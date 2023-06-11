@@ -17,7 +17,7 @@ d. Atur permission sebagai view-only untuk user biasa menggunakan perintah sudo 
 e. Cek menggunakan perintah ls -l.  
     <img src="https://i.imgur.com/hFyYPyM.png" alt= "image">  
   
-2. Lakukan konfigurasi alamat IP address sementara pada sistem dan default gateway. (petunjuk 192.168.56.x | x adalah nomor absen).
+2. Lakukan konfigurasi alamat IP address sementara pada sistem dan default gateway. (petunjuk 192.168.56.x | x adalah nomor absen).  
 a. Konfigurasi IP Address sementara menggunakan perintah sudo ifconfig enp0s8 192.168.56.6 netmask 255.255.255.0. Saya
 memasukkan IP Address 192.168.56.6 sesuai dengan nomor absen saya di MK Administrasi Sistem, yaitu 6.  
 b. Verifikasi untuk memastikan alamat IP yang telah dikonfigurasi telah terdaftar dengan menjalankan perintah sudo ifconfig enp0s8.  
