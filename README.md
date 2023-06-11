@@ -59,5 +59,14 @@ i. Tambahkan user hanifahr yang baru dibuat pada perintah sebelumnya ke dalam gr
     <img src="https://i.imgur.com/DOF63ab.png" alt= "image">  
 
 4. Lakukan ping ke alamat ip anda dan coba lakukan reject dan drop di webmin, lalu analisis apa yang terjadi?  
+    a. Ping alamat IP saya menggunakan perintah ping 192.168.76.128 -t.  
+    <img src="https://i.imgur.com/sfDA0YL.png" alt= "image">  
+    b. Akses Networking -> Linux Firewall pada Webmin. Pada bagian Incoming Packets (INPUT) pilih Add rule dan atur rule atas Incoming Packets (INPUT) untuk me-reject ping. Apply configuration.  
+    <img src="https://i.imgur.com/MV0coko.png" alt= "image">  
+    <img src="https://i.imgur.com/l9Uw1NV.png" alt= "image">  
+    c. Ping berubah menjadi Destination net unreachable karena setting INPUT sudah diubah menjadi reject.  
+    <img src="https://i.imgur.com/w2HLmpR.png" alt= "image">  
+    d. Atur juga konfigurasi untuk drop Incoming Packets (INPUT). Ping berubah menjadi Request timed out karena setting INPUT sudah diubah menjadi drop.  
+    <img src="https://i.imgur.com/Y8NlgeX.png" alt= "image">  
   
 5. Buatlah perintah otomatis yang berfungsi untuk ping www.filkom.ub.ac.id  
