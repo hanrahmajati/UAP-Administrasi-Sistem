@@ -30,14 +30,15 @@ d. Jalankan perintah sudo route -n untuk memastikan bahwa alamat IP Default Gate
   
 3. Lakukan Instalasi Webmin lalu buatlah user bernama nama anda, lalu buat group Adsis_(kelas masing-masing) dan masukkan nama anda di group.  
 a. Masuk ke direktori file /etc/apt/sources.list menggunakan sudo nano /etc/apt/sources.list. Tambahkan deb http://download.webmin.com/download/repository sarge contrib pada akhir baris.  
-    https://192.168.56.6:10<img src="https://i.imgur.com/DwpfKiM.png" alt= "image">000/  
-    https://192.168.56.6:10<img src="https://i.imgur.com/EW8TsaG.png" alt= "image">000/  
+    <img src="https://i.imgur.com/DwpfKiM.png" alt= "image">  
+    <img src="https://i.imgur.com/EW8TsaG.png" alt= "image">  
 b. Menambahkan kunci PGP Webmin agar sistem dapat mempercayai repository baru dengan perintah:  
     wget http://www.webmin.com/jcameron-key.asc  
-    https://192.168.56.6:10<img src="https://i.imgur.com/YwvNZCf.png" alt= "image">000/  
+    <img src="https://i.imgur.com/YwvNZCf.png" alt= "image">  
     sudo apt-key add jcameron-key.asc  
-    https://192.168.56.6:10<img src="https://i.imgur.com/sKXWN8B.png" alt= "image">000/  
+    <img src="https://i.imgur.com/sKXWN8B.png" alt= "image">  
 c. Menjalankan perintah sudo apt get install webmin untuk menginstall webmin.  
+    <img src="https://i.imgur.com/iQ0RSfA.png" alt= "image">  
 d. Untuk mengakses halaman webmin dapat dilakukan menggunakan web browser. Akses halaman Webmin dengan alamat IP dari server Webmin dan port 10000 dengan perintah https://alamatipwebmin:10000  
 e. 
 4. Lakukan ping ke alamat ip anda dan coba lakukan reject dan drop di webmin, lalu analisis apa yang terjadi?  
