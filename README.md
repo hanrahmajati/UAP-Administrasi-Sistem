@@ -18,10 +18,10 @@ e. Cek menggunakan perintah ls -l.
     <img src="https://i.imgur.com/hFyYPyM.png" alt= "image">  
   
 2. Lakukan konfigurasi alamat IP address sementara pada sistem dan default gateway. (petunjuk 192.168.56.x | x adalah nomor absen).  
-a. Konfigurasi IP Address sementara menggunakan perintah sudo ifconfig enp0s8 192.168.56.6 netmask 255.255.255.0. Saya
+a. Konfigurasi IP Address sementara menggunakan perintah sudo ifconfig ens33 192.168.56.6 netmask 255.255.255.0. Saya
 memasukkan IP Address 192.168.56.6 sesuai dengan nomor absen saya di MK Administrasi Sistem, yaitu 6.  
 b. Verifikasi untuk memastikan alamat IP yang telah dikonfigurasi telah terdaftar dengan menjalankan perintah sudo ifconfig enp0s8.  
-c. Konfigurasi IP Addres Default Gateway menggunakan perintah sudo route add default gw 192.168.56.6 enp0s8. Digunakan IP Address yang sama dengan perintah sebelumnya. Kemudian dijalankan perintah sudo route -n untuk memastikan bahwa alamat IP Default Gateway sudah terdaftar.  
+c. Konfigurasi IP Addres Default Gateway menggunakan perintah sudo route add default gw 192.168.56.6 ens33. Digunakan IP Address yang sama dengan perintah sebelumnya. Kemudian dijalankan perintah sudo route -n untuk memastikan bahwa alamat IP Default Gateway sudah terdaftar.  
   
 3. Lakukan Instalasi Webmin lalu buatlah user bernama nama anda, lalu buat group Adsis_(kelas masing-masing) dan masukkan nama anda di group.
   
