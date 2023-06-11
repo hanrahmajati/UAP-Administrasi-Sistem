@@ -1,5 +1,8 @@
 # UAP-Administrasi-Sistem
-Ujian Akhir Praktikum MK Administrasi Sistem menggunakan Linux Ubuntu
+
+<div align="center">
+<strong><p>Ujian Akhir Praktikum MK Administrasi Sistem - Hanifah Rahmajati - 215150700111049</p></strong>
+</div>
 
 1. Buat direktori dengan nama UAP-Adsis, isi dengan file txt dengan format penamaan catatannya-<nama kamu>.txt, kemudian isi file txt tersebut dengan nama dan NIM kamu. Kemudian atur permission view-only pada file tersebut untuk user biasa. 
 Tunjukkan bukti berupa screenshot yang menunjukkan bahwa file tersebut berhasil diatur permissionnya menjadi view-only untuk user biasa.
