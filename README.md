@@ -40,11 +40,20 @@ b. Menambahkan kunci PGP Webmin agar sistem dapat mempercayai repository baru de
 c. Menjalankan perintah sudo apt get install webmin untuk menginstall webmin.  
     <img src="https://i.imgur.com/iQ0RSfA.png" alt= "image">  
 d. Untuk mengakses halaman webmin dapat dilakukan menggunakan web browser. Akses halaman Webmin dengan alamat IP dari server Webmin dan port 10000 dengan perintah https://alamatipwebmin:10000. Akses melalui https://192.168.76.128:10000  
+    <img src="https://i.imgur.com/7mwBmt6.png" alt= "image">  
 e. Setelah itu login dengan username dan password dari akun server yang telah dimiliki. Login menggunakan username dan password Ubuntu.  
+    <img src="https://i.imgur.com/7mwBmt6.png" alt= "image">  
 f. Mengakses Users and Group pada webmin untuk membuat user baru.  
-g. Membuat user baru dengan nama hanifahr.
-h. Mengakses group dan membuat group baru dengan nama Adsis_E sesuai dengan kelas MK Administrasi Sistem saya.  
+    <img src="https://i.imgur.com/fXJU2EO.png" alt= "image">  
+g. Membuat user baru dengan nama hanifahr.  
+    <img src="https://i.imgur.com/P15BRN6.png" alt= "image">  
+    <img src="https://i.imgur.com/Vo7U4cY.png" alt= "image">  
+h. Membuat group baru dengan nama Adsis_E sesuai dengan kelas MK Administrasi Sistem saya.  
+    <img src="https://i.imgur.com/7cTcHgg.png" alt= "image">  
+    <img src="https://i.imgur.com/QvzFfGE.png" alt= "image">  
 i. Tambahkan user hanifahr yang baru dibuat pada perintah sebelumnya ke dalam group Adsis_E.  
+    <img src="https://i.imgur.com/rD4UrRz.png" alt= "image">  
+    <img src="https://i.imgur.com/DOF63ab.png" alt= "image">  
 
 4. Lakukan ping ke alamat ip anda dan coba lakukan reject dan drop di webmin, lalu analisis apa yang terjadi?  
   
