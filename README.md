@@ -70,3 +70,11 @@ i. Tambahkan user hanifahr yang baru dibuat pada perintah sebelumnya ke dalam gr
     <img src="https://i.imgur.com/Y8NlgeX.png" alt= "image">  
   
 5. Buatlah perintah otomatis yang berfungsi untuk ping www.filkom.ub.ac.id  
+    a. Masuk dan konfigurasi file cron menggunakan perintah sudo crontab -e.  
+    <img src="https://i.imgur.com/sGGQufr.png" alt= "image">  
+    <img src="https://i.imgur.com/1kgcUeE.png" alt= "image">  
+    b. Konfigurasi crontab dengan menambahkan perintah */1 * * * * ping filkom.ub.ac.id untuk melakukan ping otomatis ke alamat filkom.ub.ac.id setiap menit.  
+    <img src="https://i.imgur.com/PaRd5Pz.png" alt= "image">  
+    <img src="https://i.imgur.com/kjfz64Z.png" alt= "image">  
+    c. Cek menggunakan perintah ps aux | grep ping.  
+    <img src="https://i.imgur.com/H7ISuTN.png" alt= "image">  
